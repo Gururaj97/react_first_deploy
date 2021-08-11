@@ -5,7 +5,10 @@ import background from './images/background.jpg';
 function App() {
   return (
     <div className="App">
-    <img src={background}></img>
+      <div>
+        <h1>Image added</h1>
+    <img src={background}/>
+    </div>
     </div>
   );
 }
